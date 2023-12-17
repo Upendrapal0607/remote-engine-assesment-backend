@@ -1,10 +1,11 @@
 // all impotant import 
 const express = require("express");
-const { connection } = require("./db/db");
+const { connection } = require("./src/db/db");
 const cors = require("cors");
-const { DeveloperRoute } = require("./routes/Developer.route");
-const { RegisterRout } = require("./routes/Register.Route");
-const { SkillsRoute } = require("./routes/Skiils.Route");
+const { DeveloperRoute } = require("./src/routes/Developer.route");
+const { RegisterRout } = require("./src/routes/Register.Route");
+const { SkillsRoute } = require("./src/routes/Skiils.Route");
+
 
 require("dotenv").config();
 // what should be app can use base on requirment 
